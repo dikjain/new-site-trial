@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root{
+    --black: #000;
+    --green : #aedee0;
+    --white : #fff;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    transition: 0.3s ease-in-out;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body[theme="black"]{
+    background-color: var(--black);
+}
+body[theme="black"] .section{
+    color: white;
+}
+body[theme="black"] .section{
+    color: white;
+}
+body[theme="green"]{
+    background-color: var(--green);
+}
+body[theme="blue"]{
+    background-color: #ef9d71;
+}
+body[theme="white"]{
+    background-color: var(--white);
+}
+
+.nn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mn{
+    font-family: "Chakra Petch", sans-serif;
+}
+.uu{
+    box-shadow: black 3px 3px 10px , white -3px -3px 10px;
+}
+#vdodiv{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+.tmh{
+transition: ease-out 0.3s all;
+}
+.tmh:hover{
+    h1,h3{
+        color: white;
+    }
+    transition: ease-out 0.3s all;
+    #bluelayer{
+        transition: ease-out 0.3s all;
+        height: 100%;
+        width: 100%;
+    }
+}
+.cards{
+    position: relative;
+    top:400px
+}
+
+
